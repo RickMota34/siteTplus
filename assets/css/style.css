@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*topo*/
+#check{
+    display: none;
+}
+.top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #ff1493;
+    width: 100%;
+    height: 50px;
+}
+
+.bt-menu{
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.bt-menu img{
+    padding: 5px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.text-logo {
+    width: 100px;
+    height: 40px;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.text-logo h1{
+    font-size: 20px;
+    padding: 5px;
+    color: #fff;
+}
+
+.login {
+    width: 100px;
+    height: 40px;
+    padding: 5px;
+    cursor: pointer;
+
+}
+
+.login img{
+    padding: 5px;
+    height: 15px;
+}
+
+.login span{
+    font-size: 15px;
+    color: #fff;
+}
+/*topo*/
+
+/*menu lateral*/
+.mn-lat{
+    width: 200px;
+    height: calc(100vh - 50px);
+    background-color: #ff69b4;
+}
+
+.cont-menu li{
+    padding-bottom: 20px;
+}
+
+.cont-menu li:hover{
+    background-color: #ff1493;
+}
+
+.cont-menu a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+    color: #fff;
+}
+/*menu lateral*/
